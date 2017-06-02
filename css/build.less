@@ -1,0 +1,62 @@
+// out: build.css, sourcemap: true, compress: true
+
+@import "variables.less";
+@import "bootstrap/bootstrap.less";
+@import "bootswatch.less";
+@import "../libs/grid-gallery/css/component.css";
+
+body {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.846;
+  color: #666666;
+  background-color: #ffffff;
+}
+
+.smaller {
+  font-size: 60%;
+  line-height: 60%;
+}
+
+.wrap {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+@media screen and (min-width: 768px){
+  .jumbotron {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+}
+
+
+.grid-wrap {
+  max-width: 1200px;
+  .grid figure {
+    padding: 6px;
+  }
+}
+
+.slideshow li {
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    margin: 0 0 0 -45%;
+}
+.grid-gallery .slideshow figure{
+  border: 0px;
+  background: rgba(148, 148, 148, 0.32);
+}
+
+.grid-gallery .slideshow figure img {
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto auto;
+  width: auto;
+}
+
+.energy img {
+  width: 100%;
+}

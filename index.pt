@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>For sale: 1427 Springdale Ln, Green Bay</title>
+    <meta name="Description" content="Website for sale of home 1427 Springdale Ln, Green Bay, WI" />
+
+    <meta name="Keywords" content="home, sale, green bay" />
+
+    <meta property="og:url" content="https://www.1427springdale.com" />
+
+    <meta property="og:image" content="https://www.1427springdale.com/images/main.jpg" />
+
+    <meta property="og:site_name" content="For sale: 1427 Springdale Ln, Green Bay" />
+
+    <meta property="og:locale" content="en_US" />
+
+    <meta property="og:type" content="website" />
+
+
+    <!-- Bootstrap -->
+    <link href="css/build.css?v=2" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <h1>For sale,
+        <span class="smaller">1427 Springdale Ln, Green Bay - $204,800</span>
+      </h1>
+      <p>4 beds, 2.5 baths, 2,696 sqft, Single-Family Home</p>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Details</h2>
+          <p>
+            Spacious home that has been well
+            maintained & cared for. There are 4 spacious bedrooms upstairs all w/HW
+            floors, while the master has a private bathroom. The main level offers
+            formal living & dining rooms along with a den/office area and a
+            gorgeous family room that offers lots of natural light and a high efficiency fireplace.
+            Spacious kitchen has bright, white cabinets. Park-like yard w/shed.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <ul>
+            <li>Price: 204,800</li>
+            <li>4 Bedrooms</li>
+            <li>2 full, 1 partial Bathrooms</li>
+            <li>Hardwood flooring throughout most of house</li>
+            <li>Most appliances included</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li>Central Air</li>
+            <li>Single-Family Home</li>
+            <li>2 Fireplaces (1 wood stove)</li>
+            <li>2 Car Attached Garage</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li>2,696 sqft</li>
+            <li>Patio</li>
+            <li>Concret curbing landscaping</li>
+            <li>Exterior: Aluminum/Steel, Brick</li>
+          </ul>
+        </div>
+      </div>
+
+      <div tal:replace="python: render_gallery('main')" />
+
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Bedroom sizes</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <table class="table table-striped">
+            <tbody>
+              <tr>
+                <td>Bedrooms Finished</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>Bedroom 1/Master</td>
+                <td>15X12</td>
+              </tr>
+              <tr>
+                <td>Bedroom 2</td>
+                <td>15X12</td>
+              </tr>
+              <tr>
+                <td>Bedroom 3</td>
+                <td>12X11</td>
+              </tr>
+              <tr>
+                <td>Bedroom 4</td>
+                <td>11X10</td>
+              </tr>
+              <tr>
+                <td>Baths Finished-Half</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>Baths # Half-Main</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>Baths Finished-Half</td>
+                <td>1</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-6">
+          <table class="table table-striped">
+            <tbody>
+              <tr>
+                <td>Bedroom 1/Master Lvl</td>
+                <td>Upper</td>
+              </tr>
+              <tr>
+                <td>Bedroom 2 Level</td>
+                <td>Upper</td>
+              </tr>
+              <tr>
+                <td>Bedroom 3 Level</td>
+                <td>Upper</td>
+              </tr>
+              <tr>
+                <td>Bedroom 4 Level</td>
+                <td>Upper</td>
+              </tr>
+              <tr>
+                <td>Baths Finished-Full</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Baths # Full-Upper</td>
+                <td>2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Additional room sizes</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <table class="table table-striped">
+            <tbody>
+              <tr>
+                <td>Living/Great Rm Level</td>
+                <td>Main</td>
+              </tr>
+              <tr>
+                <td>Family Room Level</td>
+                <td>Main</td>
+              </tr>
+              <tr>
+                <td>Formal Dining Level</td>
+                <td>Main</td>
+              </tr>
+              <tr>
+                <td>Kitchen Level</td>
+                <td>Main</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-6">
+          <table class="table table-striped">
+            <tbody>
+              <tr>
+                <td>Living/Great Rm</td>
+                <td>26X12</td>
+              </tr>
+              <tr>
+                <td>Family Room</td>
+                <td>24X18</td>
+              </tr>
+              <tr>
+                <td>Formal Dining</td>
+                <td>13X11</td>
+              </tr>
+              <tr>
+                <td>Kitchen</td>
+                <td>20X13</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 energy">
+            <h2>Energy Use</h2>
+            <p>No energy bill(electric + heat + air) over $200 in the past 2 years.</p>
+            <img src="images/EnergyUse.png" />
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Location</h2>
+            <ul>
+              <li>School district: Green Bay Area Public School</li>
+              <li>Walking distance to 3 schools</li>
+              <li>Central location to green bay shopping areas</li>
+            </ul>
+          </div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2844.882904543468!2d-88.08742368453932!3d44.51755180412625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802fa1f2b25df4d%3A0xb89a76c0ebd765e8!2s1427+Springdale+Ln%2C+Green+Bay%2C+WI+54304!5e0!3m2!1sen!2sus!4v1494747989160" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+      <!-- <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Additional resources</h2>
+            <p>
+              links to zillow, blah blah blah
+            </p>
+          </div>
+        </div>
+
+      </div> -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <a id="contact" />
+            <h2>Contact</h2>
+          </div>
+        </div>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfb5KfnK99xSJ_RIvdGRRfVmUZhios_npxw_tC57AZFl3jxhg/viewform?embedded=true" width="100%" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="libs/grid-gallery/js/modernizr.custom.js"></script>
+    <script src="libs/grid-gallery/js/imagesloaded.pkgd.min.js"></script>
+    <script src="libs/grid-gallery/js/masonry.pkgd.min.js"></script>
+    <script src="libs/grid-gallery/js/classie.js"></script>
+    <script src="libs/grid-gallery/js/cbpGridGallery.js"></script>
+    <script>
+      new CBPGridGallery( document.getElementById( 'grid-gallery-main' ) );
+    </script>
+  </body>
+</html>

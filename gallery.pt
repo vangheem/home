@@ -1,0 +1,41 @@
+<div id="grid-gallery-${name}" class="grid-gallery">
+  <section class="grid-wrap">
+    <ul class="grid">
+      <li class="grid-sizer"></li><!-- for Masonry column width -->
+      <tal:images tal:repeat="image images">
+        <li>
+          <figure>
+            <img src="${image['thumb']}" />
+          </figure>
+        </li>
+      </tal:images>
+      <!-- <li>
+        <figure>
+          <img src="libs/grid-gallery/img/thumb/2.png" alt="img02"/>
+          <figcaption><h3>Vice velit chia</h3><p>Laborum tattooed iPhone, Schlitz irure nulla Tonx retro 90's chia cardigan quis asymmetrical paleo. </p></figcaption>
+        </figure>
+      </li> -->
+    </ul>
+  </section>
+  <section class="slideshow">
+    <ul>
+      <tal:images tal:repeat="image images">
+        <li>
+          <figure>
+            <!-- <figcaption>
+              <h3>Image title</h3>
+              <p>Image description</p>
+            </figcaption> -->
+            <img src="${image['large']}" />
+          </figure>
+        </li>
+      </tal:images>
+    </ul>
+    <nav>
+      <span class="icon nav-prev"></span>
+      <span class="icon nav-next"></span>
+      <span class="icon nav-close"></span>
+    </nav>
+    <div class="info-keys icon">Navigate with arrow keys</div>
+  </section>
+</div>
