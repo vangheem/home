@@ -45,7 +45,7 @@ def create_thumbnail(input_filename, output_filename, size):
 def render_gallery(name):
     base_path = os.path.join('images', name)
 
-    output_base_path = os.path.join('images/_build', name)
+    output_base_path = os.path.join('images/build', name)
     if not os.path.exists(output_base_path):
         os.makedirs(output_base_path)
 
