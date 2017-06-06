@@ -213,7 +213,7 @@
           <div class="col-md-12 energy">
             <h2>Energy Use</h2>
             <p>No energy bill(electric + heat + air) over $200 in the past 2 years.</p>
-            <img src="images/EnergyUse.png" />
+            <img src="img/EnergyUse.png" />
           </div>
         </div>
       </div>
